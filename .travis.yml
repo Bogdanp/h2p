@@ -1,0 +1,12 @@
+language: python
+sudo: required
+python:
+  - "3.6"
+install:
+  - pip install -U codeclimate-test-reporter pipenv
+  - pipenv install --dev
+  - pip install -I "coverage>4.0,<4.4"
+script:
+  - py.test
+after_success:
+  - CODECLIMATE_REPO_TOKEN=c13adb6ff4fe2169217bd8e2a646b7d776ac77cf3c63f71fb4b7466fbc4f9b0d codeclimate-test-reporter
