@@ -13,3 +13,4 @@ name = "pypi"
 
 pytest = "*"
 pytest-cov = "*"
+bumpversion = "*"
