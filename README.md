@@ -1,9 +1,8 @@
 # h2p
 
 [![Build Status](https://travis-ci.org/Bogdanp/h2p.svg?branch=master)](https://travis-ci.org/Bogdanp/h2p)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d20f010978828b7530dd/test_coverage)](https://codeclimate.com/github/Bogdanp/h2p/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/780d074f7d151fddb1b9/maintainability)](https://codeclimate.com/github/Bogdanp/h2p/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/780d074f7d151fddb1b9/test_coverage)](https://codeclimate.com/github/Bogdanp/h2p/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/780d074f7d151fddb1b9/maintainability)](https://codeclimate.com/github/Bogdanp/h2p/maintainability)
 
 This package converts HTML pages to PDFs by leveraging `libwkhtmltox`
 via ctypes, avoiding the need to spawn subprocesses on every call.
